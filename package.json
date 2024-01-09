@@ -1,8 +1,8 @@
 {
-  "name": "electron-react-typescript-webpack-2023",
-  "productName": "ERWT Boilerplate",
-  "version": "7.8.0",
-  "description": "Custom boilerplate for writing Desktop Applications using Electron, React, Webpack, TypeScript in 2023",
+  "name": "pomodoro",
+  "productName": "MBJ Pomodoro",
+  "version": "0.0.1",
+  "description": "Simple pomodoro",
   "main": ".webpack/main",
   "scripts": {
     "start": "cross-env NODE_ENV=development electron-forge start",
@@ -12,29 +12,11 @@
     "lint": "eslint src/ --ext .ts,.js,.tsx,.jsx"
   },
   "keywords": [
-    "electron boilerplate",
-    "minimal",
-    "electron-webpack",
-    "electron-react",
-    "electron-typescript",
-    "hmr",
-    "boilerplate",
-    "2023",
-    "ERWT"
-  ],
-  "author": {
-    "name": "codesbiome",
-    "url": "https://github.com/codesbiome"
-  },
-  "contributors": [
-    {
-      "name": "guasam",
-      "url": "https://github.com/guasam"
-    }
+    "pomodoro"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/codesbiome/electron-react-webpack-typescript-2023"
+    "url": "https://github.com/Made-By-J-Org/pomodoro"
   },
   "license": "MIT",
   "config": {
