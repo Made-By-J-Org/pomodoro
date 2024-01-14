@@ -1,7 +1,7 @@
 import '@misc/window/windowPreload';
 
 // Say something
-console.log('[ERWT] : Preload execution started');
+console.log('[MBJ Pomodoro] : Preload execution started');
 
 // Get versions
 window.addEventListener('DOMContentLoaded', () => {

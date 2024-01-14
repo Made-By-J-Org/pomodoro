@@ -4,7 +4,7 @@ import WindowFrame from '@misc/window/components/WindowFrame';
 import Application from '@components/Application';
 
 // Say something
-console.log('[ClickClock] : Renderer execution started');
+console.log('[MBJ Pomodoro] : Renderer execution started');
 
 // Application to Render
 const app = (
