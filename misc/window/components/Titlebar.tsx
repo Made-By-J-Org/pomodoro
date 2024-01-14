@@ -123,14 +123,6 @@ const Titlebar: React.FC<Props> = (props) => {
 
   return (
     <div className='window-titlebar'>
-      {props.icon ? (
-        <section className='window-titlebar-icon'>
-          <img src={props.icon} alt='titlebar icon' />
-        </section>
-      ) : (
-        ''
-      )}
-
       <section
         className={classNames('window-titlebar-content', {
           centered: props.mode === 'centered-title',
