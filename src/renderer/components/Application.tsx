@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import './Application.scss';
 import Counter from '@components/Counter/Counter';
-import AddCounter from '@components/AddCounter/AddCounter';
+import Controls from '@components/Controls/Controls';
 
 const Application: React.FC = () => {
   useEffect(() => {
@@ -13,7 +13,7 @@ const Application: React.FC = () => {
       <Counter/>
       <Counter/>
       <Counter/>
-      <AddCounter/>
+      <Controls/>
     </main>
   );
 };
