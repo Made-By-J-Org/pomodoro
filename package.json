@@ -61,6 +61,9 @@
   },
   "dependencies": {
     "electron-squirrel-startup": "^1.0.0",
+    "jotai": "^2.6.2",
+    "jotai-optics": "^0.3.1",
+    "optics-ts": "^2.4.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "uuid": "^9.0.1"
