@@ -10,7 +10,8 @@ const AddCounter = () => {
 
   return addCounterAtomValue
     && <div className="addCounterWrapper">
-      <input type="text" />
+      <input type="text" placeholder="clock name" />
+      <span className="btn">OK</span>
     </div>;
 };
 
