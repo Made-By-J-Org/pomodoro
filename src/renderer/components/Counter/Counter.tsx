@@ -1,8 +1,8 @@
-import React, { useEffect, useLayoutEffect, useState } from 'react';
+import React, { useEffect, useLayoutEffect, useState } from "react";
 
-import formatTime from '@renderer/utils/formatTime';
+import formatTime from "@renderer/utils/formatTime";
 
-import './Counter.scss';
+import "./Counter.scss";
 
 const Counter = () => {
   const [playPause, setPlayPause] = useState(false)

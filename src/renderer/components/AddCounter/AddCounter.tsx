@@ -3,12 +3,15 @@ import { useAtomValue } from 'jotai';
 
 import { addCounterAtom } from '@renderer/storage/atoms';
 
+import './AddCounter.scss';
+
 const AddCounter = () => {
-  const addCounterAtomValue = useAtomValue(addCounterAtom)
+  const addCounterAtomValue = useAtomValue(addCounterAtom);
 
   return addCounterAtomValue
-      ? <input type="text" />
-      : null
-}
+    && <div className="addCounterWrapper">
+      <input type="text" />
+    </div>;
+};
 
-export default AddCounter
+export default AddCounter;

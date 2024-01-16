@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/ban-ts-comment */
-const STORAGE_KEY = 'TIMERS_LIST'
+const STORAGE_KEY = "TIMERS_LIST"
 
 
 // @ts-ignore
@@ -10,7 +10,7 @@ export const readLSTimersList = () => {
     timersList = JSON.parse(timersList)
   }
   else {
-    localStorage.setItem(STORAGE_KEY, '[]')
+    localStorage.setItem(STORAGE_KEY, "[]")
   }
 
   return timersList ?? []
